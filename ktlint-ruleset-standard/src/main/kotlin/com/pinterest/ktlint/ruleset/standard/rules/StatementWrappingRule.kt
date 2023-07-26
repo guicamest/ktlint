@@ -24,7 +24,7 @@ import com.pinterest.ktlint.ruleset.standard.StandardRule
 import org.jetbrains.kotlin.com.intellij.lang.ASTNode
 import org.jetbrains.kotlin.utils.addToStdlib.applyIf
 
-public class StatementWrapping :
+public class StatementWrappingRule :
     StandardRule(
         "statement-wrapping",
         usesEditorConfigProperties =

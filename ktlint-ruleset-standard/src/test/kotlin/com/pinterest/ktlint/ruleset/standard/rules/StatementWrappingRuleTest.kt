@@ -5,9 +5,9 @@ import com.pinterest.ktlint.test.LintViolation
 import org.junit.jupiter.api.Disabled
 import org.junit.jupiter.api.Test
 
-class StatementWrappingTest {
+class StatementWrappingRuleTest {
     private val statementWrappingAssertThat =
-        KtLintAssertThat.assertThatRule { StatementWrapping() }
+        KtLintAssertThat.assertThatRule { StatementWrappingRule() }
 
     @Test
     fun `Given a function body with first statement at the same line as lbrace`() {
